@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>留言板</title>
+
+    <!--    引入必须文件-->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+
+    <!--JQuery-->
+    <script src="node_modules/jquery/dist/core.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+<div class="container" style="padding-top: 60px">
+    <h1>Message Here</h1>
+    <form>
+        <div class="form-group">
+            <textarea class="form-control" name="content" id="content" rows="3">
+                Please type your what want to say here.
+            </textarea>
+        </div>
+        <button id="submit" class="btn btn-primary btn-sm" type="submit">
+            <i class="fa fa-share"></i>Upload!
+        </button>
+    </form>
+
+    <hr>
+
+    <div class="reply-list">
+        <div id="list-item" class="media">
+            <a href="/" class="align-self-start mr-3">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.TUqsKuGt1PyiTWUslPQmLgAAAA&pid=Api" style="width:48px;height:48px;">
+            </a>
+            <div class="media-body">
+                <h5 class="mt-0">Name</h5>
+                <p>What's up!</p>
+                <span class="ml-4"
+                style="float: right">
+                    2 day ago
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+<script>
+    // 构造请求
+    $.ajax()
+
+    // 表单提交
+
+    // 遍历获取数据
+    // 更新页面数据
+    // 添加数据
+</script>
+
+</html>
